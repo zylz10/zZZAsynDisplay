@@ -15,6 +15,13 @@
 		C41D7ABE1EE6510400A6B353 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C41D7ABC1EE6510400A6B353 /* LaunchScreen.storyboard */; };
 		C41D7AC91EE6510400A6B353 /* zZZAsynDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D7AC81EE6510400A6B353 /* zZZAsynDisplayTests.m */; };
 		C41D7AD41EE6510400A6B353 /* zZZAsynDisplayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D7AD31EE6510400A6B353 /* zZZAsynDisplayUITests.m */; };
+		C41D7AEA1EE651C400A6B353 /* zZZBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D7AE51EE651C400A6B353 /* zZZBaseView.m */; };
+		C41D7AEB1EE651C400A6B353 /* zZZButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D7AE71EE651C400A6B353 /* zZZButton.m */; };
+		C41D7AEC1EE651C400A6B353 /* zZZImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D7AE91EE651C400A6B353 /* zZZImageView.m */; };
+		C41D7AF41EE652C200A6B353 /* YYAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D7AEF1EE652C200A6B353 /* YYAsyncLayer.m */; };
+		C41D7AF51EE652C200A6B353 /* YYSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D7AF11EE652C200A6B353 /* YYSentinel.m */; };
+		C41D7AF61EE652C200A6B353 /* YYTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D7AF31EE652C200A6B353 /* YYTransaction.m */; };
+		C41D7AF91EE656F200A6B353 /* zZZCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C41D7AF81EE656F200A6B353 /* zZZCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		C41D7ACF1EE6510400A6B353 /* zZZAsynDisplayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zZZAsynDisplayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C41D7AD31EE6510400A6B353 /* zZZAsynDisplayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zZZAsynDisplayUITests.m; sourceTree = "<group>"; };
 		C41D7AD51EE6510400A6B353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41D7AE41EE651C400A6B353 /* zZZBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zZZBaseView.h; sourceTree = "<group>"; };
+		C41D7AE51EE651C400A6B353 /* zZZBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zZZBaseView.m; sourceTree = "<group>"; };
+		C41D7AE61EE651C400A6B353 /* zZZButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zZZButton.h; sourceTree = "<group>"; };
+		C41D7AE71EE651C400A6B353 /* zZZButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zZZButton.m; sourceTree = "<group>"; };
+		C41D7AE81EE651C400A6B353 /* zZZImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zZZImageView.h; sourceTree = "<group>"; };
+		C41D7AE91EE651C400A6B353 /* zZZImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zZZImageView.m; sourceTree = "<group>"; };
+		C41D7AEE1EE652C200A6B353 /* YYAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAsyncLayer.h; sourceTree = "<group>"; };
+		C41D7AEF1EE652C200A6B353 /* YYAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAsyncLayer.m; sourceTree = "<group>"; };
+		C41D7AF01EE652C200A6B353 /* YYSentinel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSentinel.h; sourceTree = "<group>"; };
+		C41D7AF11EE652C200A6B353 /* YYSentinel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSentinel.m; sourceTree = "<group>"; };
+		C41D7AF21EE652C200A6B353 /* YYTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTransaction.h; sourceTree = "<group>"; };
+		C41D7AF31EE652C200A6B353 /* YYTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTransaction.m; sourceTree = "<group>"; };
+		C41D7AF71EE656F200A6B353 /* zZZCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zZZCell.h; sourceTree = "<group>"; };
+		C41D7AF81EE656F200A6B353 /* zZZCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zZZCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +122,14 @@
 		C41D7AAD1EE6510400A6B353 /* zZZAsynDisplay */ = {
 			isa = PBXGroup;
 			children = (
+				C41D7AED1EE652C200A6B353 /* YYAsyncLayer */,
+				C41D7AE31EE651C400A6B353 /* zZZ */,
 				C41D7AB11EE6510400A6B353 /* AppDelegate.h */,
 				C41D7AB21EE6510400A6B353 /* AppDelegate.m */,
 				C41D7AB41EE6510400A6B353 /* ViewController.h */,
 				C41D7AB51EE6510400A6B353 /* ViewController.m */,
+				C41D7AF71EE656F200A6B353 /* zZZCell.h */,
+				C41D7AF81EE656F200A6B353 /* zZZCell.m */,
 				C41D7AB71EE6510400A6B353 /* Main.storyboard */,
 				C41D7ABA1EE6510400A6B353 /* Assets.xcassets */,
 				C41D7ABC1EE6510400A6B353 /* LaunchScreen.storyboard */,
@@ -138,6 +163,32 @@
 				C41D7AD51EE6510400A6B353 /* Info.plist */,
 			);
 			path = zZZAsynDisplayUITests;
+			sourceTree = "<group>";
+		};
+		C41D7AE31EE651C400A6B353 /* zZZ */ = {
+			isa = PBXGroup;
+			children = (
+				C41D7AE41EE651C400A6B353 /* zZZBaseView.h */,
+				C41D7AE51EE651C400A6B353 /* zZZBaseView.m */,
+				C41D7AE61EE651C400A6B353 /* zZZButton.h */,
+				C41D7AE71EE651C400A6B353 /* zZZButton.m */,
+				C41D7AE81EE651C400A6B353 /* zZZImageView.h */,
+				C41D7AE91EE651C400A6B353 /* zZZImageView.m */,
+			);
+			path = zZZ;
+			sourceTree = "<group>";
+		};
+		C41D7AED1EE652C200A6B353 /* YYAsyncLayer */ = {
+			isa = PBXGroup;
+			children = (
+				C41D7AEE1EE652C200A6B353 /* YYAsyncLayer.h */,
+				C41D7AEF1EE652C200A6B353 /* YYAsyncLayer.m */,
+				C41D7AF01EE652C200A6B353 /* YYSentinel.h */,
+				C41D7AF11EE652C200A6B353 /* YYSentinel.m */,
+				C41D7AF21EE652C200A6B353 /* YYTransaction.h */,
+				C41D7AF31EE652C200A6B353 /* YYTransaction.m */,
+			);
+			path = YYAsyncLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +258,7 @@
 				TargetAttributes = {
 					C41D7AAA1EE6510400A6B353 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5SA87K38Y8;
 						ProvisioningStyle = Automatic;
 					};
 					C41D7AC31EE6510400A6B353 = {
@@ -273,9 +325,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C41D7AEA1EE651C400A6B353 /* zZZBaseView.m in Sources */,
 				C41D7AB61EE6510400A6B353 /* ViewController.m in Sources */,
 				C41D7AB31EE6510400A6B353 /* AppDelegate.m in Sources */,
+				C41D7AF51EE652C200A6B353 /* YYSentinel.m in Sources */,
+				C41D7AF91EE656F200A6B353 /* zZZCell.m in Sources */,
+				C41D7AF41EE652C200A6B353 /* YYAsyncLayer.m in Sources */,
+				C41D7AEC1EE651C400A6B353 /* zZZImageView.m in Sources */,
 				C41D7AB01EE6510400A6B353 /* main.m in Sources */,
+				C41D7AEB1EE651C400A6B353 /* zZZButton.m in Sources */,
+				C41D7AF61EE652C200A6B353 /* YYTransaction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +481,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5SA87K38Y8;
 				INFOPLIST_FILE = zZZAsynDisplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhangyiling.zZZAsynDisplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +494,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5SA87K38Y8;
 				INFOPLIST_FILE = zZZAsynDisplay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zhangyiling.zZZAsynDisplay;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -7,8 +7,12 @@
 //
 
 #import "ViewController.h"
+#import "zZZCell.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+{
+    UITableView *_tableView;
+}
 
 @end
 
@@ -16,14 +20,34 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   
+    _tableView = [[UITableView alloc]initWithFrame:self.view.bounds];
+    _tableView.delegate = self;
+    _tableView.dataSource = self;
+//    _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    [self.view addSubview:_tableView];
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
 }
-
-
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return 30;
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellId = @"zZZCell";
+    zZZCell *cell = (zZZCell *)[tableView dequeueReusableCellWithIdentifier:cellId];
+    if(!cell) {
+        cell = [[zZZCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellId] ;
+//        cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    }
+    return cell;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 100;
+}
 @end
